@@ -1,0 +1,64 @@
+# SentencePiece training matrix — paths are relative to project_root (see project_paths.yaml).
+# If use_normalized_script is true, replace /processed/native/ with /processed/normalized/ in
+# training_files before spm_train.
+
+defaults:
+  model_type: unigram
+  vocab_sizes: [8000, 16000, 32000]
+  character_coverage: 0.9995
+  use_normalized_script: false
+
+# On-disk splits (see scripts/run_transfer_experiment.py):
+#   native:       data/processed/native_script/splits/<lang>/train.txt
+#   normalized:   data/processed/normalized_script/splits_sanitized/<lang>/train.txt
+
+conditions:
+  tt_only:
+    model_type: unigram
+    vocab_sizes: [8000, 16000, 32000]
+    training_files:
+      - data/processed/native_script/splits/tt/train.txt
+    character_coverage: 0.9995
+    use_normalized_script: false
+    output_dir: outputs/tokenizers/tt_only
+
+  transfer_tr:
+    model_type: unigram
+    vocab_sizes: [8000, 16000, 32000]
+    training_files:
+      - data/processed/native_script/splits/tr/train.txt
+    character_coverage: 0.9995
+    use_normalized_script: false
+    output_dir: outputs/tokenizers/transfer_tr
+
+  transfer_tr_kk:
+    model_type: unigram
+    vocab_sizes: [8000, 16000, 32000]
+    training_files:
+      - data/processed/native_script/splits/tr/train.txt
+      - data/processed/native_script/splits/kk/train.txt
+    character_coverage: 0.9995
+    use_normalized_script: false
+    output_dir: outputs/tokenizers/transfer_tr_kk
+
+  transfer_tr_kk_tt:
+    model_type: unigram
+    vocab_sizes: [8000, 16000, 32000]
+    training_files:
+      - data/processed/native_script/splits/tr/train.txt
+      - data/processed/native_script/splits/kk/train.txt
+      - data/processed/native_script/splits/tt/train.txt
+    character_coverage: 0.9995
+    use_normalized_script: false
+    output_dir: outputs/tokenizers/transfer_tr_kk_tt
+
+  bytelevel:
+    model_type: bpe
+    vocab_sizes: [8000, 16000, 32000]
+    training_files:
+      - data/processed/native_script/splits/tr/train.txt
+      - data/processed/native_script/splits/kk/train.txt
+      - data/processed/native_script/splits/tt/train.txt
+    character_coverage: 0.9995
+    use_normalized_script: false
+    output_dir: outputs/tokenizers/bytelevel

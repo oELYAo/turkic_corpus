@@ -1,0 +1,50 @@
+# Turkic tokenizer transfer study — path layout
+# Resolve any path as: os.path.join(project_root, <path>)
+# Override project_root via env or CLI when nesting this repo inside another tree.
+
+project_root: .
+
+paths:
+  raw:
+    tr: data/raw/tr
+    kk: data/raw/kk
+    tt: data/raw/tt
+
+  processed:
+    native:
+      tr: data/processed/native_script/splits/tr
+      kk: data/processed/native_script/splits/kk
+      tt: data/processed/native_script/splits/tt
+    normalized:
+      tr: data/processed/normalized_script/splits_sanitized/tr
+      kk: data/processed/normalized_script/splits_sanitized/kk
+      tt: data/processed/normalized_script/splits_sanitized/tt
+
+  parallel:
+    kazparc: data/parallel/kazparc
+
+  ud_eval:
+    tr: data/ud/eval/tr
+    kk: data/ud/eval/kk
+    tt: data/ud/eval/tt
+
+  intrinsic_test:
+    native:
+      tr: data/processed/native_script/splits/tr/test.txt
+      kk: data/processed/native_script/splits/kk/test.txt
+      tt: data/processed/native_script/splits/tt/test.txt
+    normalized:
+      tr: data/processed/normalized_script/splits_sanitized/tr/test.txt
+      kk: data/processed/normalized_script/splits_sanitized/kk/test.txt
+      tt: data/processed/normalized_script/splits_sanitized/tt/test.txt
+
+  tokenizers:
+    baseline_tt_only: outputs/tokenizers/baseline_tt_only
+    transfer_tr: outputs/tokenizers/transfer_tr
+    transfer_tr_kk: outputs/tokenizers/transfer_tr_kk
+    transfer_tr_kk_tt: outputs/tokenizers/transfer_tr_kk_tt
+    bytelevel_baseline: outputs/tokenizers/bytelevel_baseline
+
+  results:
+    intrinsic: results/intrinsic
+    downstream: results/downstream

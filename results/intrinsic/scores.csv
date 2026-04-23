@@ -1,0 +1,8 @@
+condition,lang,script_type,vocab_size,fertility,fragmentation_rate,coverage
+smoke_test,tt,native,200,5.333333333,1,0
+sanitized_transfer_tr_kk_tt_bpe16k_cov9995,tr,normalized,16000,1.905804828,0.2357414588,0.9972989168
+sanitized_transfer_tr_kk_tt_bpe16k_cov9995,kk,normalized,16000,2.10992696,0.2996819307,0.9992451698
+sanitized_transfer_tr_kk_tt_bpe16k_cov9995,tt,normalized,16000,1.637753264,0.1567701881,0.999420587
+sanitized_transfer_tr_kk_tt_bpe32k_cov9999,tr,normalized,32000,1.707351141,0.174706137,0.9994707745
+sanitized_transfer_tr_kk_tt_bpe32k_cov9999,kk,normalized,32000,1.866790938,0.2162516986,0.9998062024
+sanitized_transfer_tr_kk_tt_bpe32k_cov9999,tt,normalized,32000,1.532885634,0.1254829078,0.9998216407

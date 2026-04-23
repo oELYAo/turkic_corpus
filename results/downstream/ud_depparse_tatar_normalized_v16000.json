@@ -1,0 +1,1317 @@
+{
+  "ud_file": "/Users/lana/NLP_casestudy/turkic_corpus/data/ud/tt_nmctt-ud-test.conllu",
+  "n_sentences": 148,
+  "k_folds": 5,
+  "split_seed": 42,
+  "init_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "epochs": 35,
+  "vocab_size": 16000,
+  "script": "normalized",
+  "deprel_dim": 28,
+  "note": "UD_Tatar-NMCTT currently publishes only the test split; metrics use k-fold on that file. Architecture and training steps are shared; only SentencePiece changes.",
+  "per_fold": [
+    {
+      "init_seed": 42,
+      "fold": 0,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2505854800936768,
+      "uas_mean": 0.351288056206089,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 42,
+      "fold": 1,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.19361702127659575,
+      "uas_mean": 0.32127659574468087,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 42,
+      "fold": 2,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.293398533007335,
+      "uas_mean": 0.4156479217603912,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 42,
+      "fold": 3,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.17718940936863545,
+      "uas_mean": 0.28716904276985744,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 42,
+      "fold": 4,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2484472049689441,
+      "uas_mean": 0.3333333333333333,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 43,
+      "fold": 0,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2459016393442623,
+      "uas_mean": 0.3372365339578454,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 43,
+      "fold": 1,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2404255319148936,
+      "uas_mean": 0.3553191489361702,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 43,
+      "fold": 2,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.30317848410757947,
+      "uas_mean": 0.4058679706601467,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 43,
+      "fold": 3,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2240325865580448,
+      "uas_mean": 0.31160896130346233,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 43,
+      "fold": 4,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.16977225672877846,
+      "uas_mean": 0.2732919254658385,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 44,
+      "fold": 0,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.23185011709601874,
+      "uas_mean": 0.3700234192037471,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 44,
+      "fold": 1,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2957446808510638,
+      "uas_mean": 0.3702127659574468,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 44,
+      "fold": 2,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.19559902200489,
+      "uas_mean": 0.29584352078239606,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 44,
+      "fold": 3,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.20366598778004075,
+      "uas_mean": 0.26476578411405294,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 44,
+      "fold": 4,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.17598343685300208,
+      "uas_mean": 0.3084886128364389,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 45,
+      "fold": 0,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.24355971896955503,
+      "uas_mean": 0.3395784543325527,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 45,
+      "fold": 1,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2851063829787234,
+      "uas_mean": 0.3723404255319149,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 45,
+      "fold": 2,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2787286063569682,
+      "uas_mean": 0.3545232273838631,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 45,
+      "fold": 3,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.15274949083503056,
+      "uas_mean": 0.25661914460285135,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 45,
+      "fold": 4,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.11387163561076605,
+      "uas_mean": 0.2236024844720497,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 46,
+      "fold": 0,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2576112412177986,
+      "uas_mean": 0.34192037470725994,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 46,
+      "fold": 1,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.11914893617021277,
+      "uas_mean": 0.24893617021276596,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 46,
+      "fold": 2,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.29584352078239606,
+      "uas_mean": 0.3960880195599022,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 46,
+      "fold": 3,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.15885947046843177,
+      "uas_mean": 0.24439918533604887,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 46,
+      "fold": 4,
+      "condition": "tt_only",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2422360248447205,
+      "uas_mean": 0.37267080745341613,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 42,
+      "fold": 0,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.28805620608899296,
+      "uas_mean": 0.38173302107728335,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 42,
+      "fold": 1,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2851063829787234,
+      "uas_mean": 0.3617021276595745,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 42,
+      "fold": 2,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2982885085574572,
+      "uas_mean": 0.40097799511002447,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 42,
+      "fold": 3,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.18737270875763748,
+      "uas_mean": 0.29124236252545826,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 42,
+      "fold": 4,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2753623188405797,
+      "uas_mean": 0.38716356107660455,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 43,
+      "fold": 0,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2646370023419204,
+      "uas_mean": 0.3793911007025761,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 43,
+      "fold": 1,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.28085106382978725,
+      "uas_mean": 0.34893617021276596,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 43,
+      "fold": 2,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.28361858190709044,
+      "uas_mean": 0.38141809290953543,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 43,
+      "fold": 3,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.23217922606924643,
+      "uas_mean": 0.3136456211812627,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 43,
+      "fold": 4,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.10144927536231885,
+      "uas_mean": 0.2236024844720497,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 44,
+      "fold": 0,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.26697892271662765,
+      "uas_mean": 0.38173302107728335,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 44,
+      "fold": 1,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.24468085106382978,
+      "uas_mean": 0.3680851063829787,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 44,
+      "fold": 2,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2885085574572127,
+      "uas_mean": 0.37897310513447435,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 44,
+      "fold": 3,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.20977596741344195,
+      "uas_mean": 0.2953156822810591,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 44,
+      "fold": 4,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2587991718426501,
+      "uas_mean": 0.3830227743271222,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 45,
+      "fold": 0,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2810304449648712,
+      "uas_mean": 0.3700234192037471,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 45,
+      "fold": 1,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.28936170212765955,
+      "uas_mean": 0.3680851063829787,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 45,
+      "fold": 2,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2713936430317848,
+      "uas_mean": 0.3569682151589242,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 45,
+      "fold": 3,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.24439918533604887,
+      "uas_mean": 0.31568228105906315,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 45,
+      "fold": 4,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2691511387163561,
+      "uas_mean": 0.37267080745341613,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 46,
+      "fold": 0,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.25526932084309134,
+      "uas_mean": 0.33021077283372363,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 46,
+      "fold": 1,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.20638297872340425,
+      "uas_mean": 0.32340425531914896,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 46,
+      "fold": 2,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.27383863080684595,
+      "uas_mean": 0.3691931540342298,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 46,
+      "fold": 3,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.23217922606924643,
+      "uas_mean": 0.3136456211812627,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 46,
+      "fold": 4,
+      "condition": "transfer_tr",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.17805383022774326,
+      "uas_mean": 0.2712215320910973,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 42,
+      "fold": 0,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.30679156908665106,
+      "uas_mean": 0.405152224824356,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 42,
+      "fold": 1,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.24893617021276596,
+      "uas_mean": 0.3446808510638298,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 42,
+      "fold": 2,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.21026894865525672,
+      "uas_mean": 0.3105134474327628,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 42,
+      "fold": 3,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.23014256619144602,
+      "uas_mean": 0.3136456211812627,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 42,
+      "fold": 4,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2070393374741201,
+      "uas_mean": 0.3146997929606625,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 43,
+      "fold": 0,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2646370023419204,
+      "uas_mean": 0.34192037470725994,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 43,
+      "fold": 1,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.23404255319148937,
+      "uas_mean": 0.3574468085106383,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 43,
+      "fold": 2,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.28117359413202936,
+      "uas_mean": 0.3765281173594132,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 43,
+      "fold": 3,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.14867617107942974,
+      "uas_mean": 0.25661914460285135,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 43,
+      "fold": 4,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.10973084886128365,
+      "uas_mean": 0.20082815734989648,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 44,
+      "fold": 0,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2505854800936768,
+      "uas_mean": 0.3559718969555035,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 44,
+      "fold": 1,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.20851063829787234,
+      "uas_mean": 0.3170212765957447,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 44,
+      "fold": 2,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2665036674816626,
+      "uas_mean": 0.35207823960880197,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 44,
+      "fold": 3,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2158859470468432,
+      "uas_mean": 0.29327902240325865,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 44,
+      "fold": 4,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2111801242236025,
+      "uas_mean": 0.3064182194616977,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 45,
+      "fold": 0,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.27400468384074944,
+      "uas_mean": 0.3700234192037471,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 45,
+      "fold": 1,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.26595744680851063,
+      "uas_mean": 0.3723404255319149,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 45,
+      "fold": 2,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.27383863080684595,
+      "uas_mean": 0.3569682151589242,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 45,
+      "fold": 3,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.21792260692464357,
+      "uas_mean": 0.29327902240325865,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 45,
+      "fold": 4,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.13043478260869565,
+      "uas_mean": 0.2484472049689441,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 46,
+      "fold": 0,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2693208430913349,
+      "uas_mean": 0.3629976580796253,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 46,
+      "fold": 1,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2936170212765957,
+      "uas_mean": 0.37446808510638296,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 46,
+      "fold": 2,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.293398533007335,
+      "uas_mean": 0.3643031784841076,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 46,
+      "fold": 3,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.15478615071283094,
+      "uas_mean": 0.2545824847250509,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 46,
+      "fold": 4,
+      "condition": "transfer_tr_kk",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2670807453416149,
+      "uas_mean": 0.37681159420289856,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 42,
+      "fold": 0,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.30210772833723654,
+      "uas_mean": 0.41217798594847777,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 42,
+      "fold": 1,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.26595744680851063,
+      "uas_mean": 0.3680851063829787,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 42,
+      "fold": 2,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2591687041564792,
+      "uas_mean": 0.3545232273838631,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 42,
+      "fold": 3,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2158859470468432,
+      "uas_mean": 0.3034623217922607,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 42,
+      "fold": 4,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2650103519668737,
+      "uas_mean": 0.3333333333333333,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 43,
+      "fold": 0,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.1522248243559719,
+      "uas_mean": 0.29508196721311475,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 43,
+      "fold": 1,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.251063829787234,
+      "uas_mean": 0.3446808510638298,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 43,
+      "fold": 2,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.1466992665036675,
+      "uas_mean": 0.21271393643031786,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 43,
+      "fold": 3,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.164969450101833,
+      "uas_mean": 0.29124236252545826,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 43,
+      "fold": 4,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2732919254658385,
+      "uas_mean": 0.37888198757763975,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 44,
+      "fold": 0,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.1288056206088993,
+      "uas_mean": 0.2576112412177986,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 44,
+      "fold": 1,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2531914893617021,
+      "uas_mean": 0.3595744680851064,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 44,
+      "fold": 2,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.22982885085574573,
+      "uas_mean": 0.3374083129584352,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 44,
+      "fold": 3,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.10183299389002037,
+      "uas_mean": 0.20162932790224034,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 44,
+      "fold": 4,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2194616977225673,
+      "uas_mean": 0.32919254658385094,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 45,
+      "fold": 0,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2505854800936768,
+      "uas_mean": 0.36768149882903983,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 45,
+      "fold": 1,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.25957446808510637,
+      "uas_mean": 0.3702127659574468,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 45,
+      "fold": 2,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.13691931540342298,
+      "uas_mean": 0.25183374083129584,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 45,
+      "fold": 3,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.20162932790224034,
+      "uas_mean": 0.26883910386965376,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 45,
+      "fold": 4,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2318840579710145,
+      "uas_mean": 0.34368530020703936,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 46,
+      "fold": 0,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2459016393442623,
+      "uas_mean": 0.3793911007025761,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 46,
+      "fold": 1,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.21063829787234042,
+      "uas_mean": 0.33191489361702126,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 46,
+      "fold": 2,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.26405867970660146,
+      "uas_mean": 0.35207823960880197,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 46,
+      "fold": 3,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2158859470468432,
+      "uas_mean": 0.2973523421588595,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 46,
+      "fold": 4,
+      "condition": "transfer_tr_kk_tt",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2525879917184265,
+      "uas_mean": 0.35196687370600416,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 42,
+      "fold": 0,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2903981264637002,
+      "uas_mean": 0.3770491803278688,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 42,
+      "fold": 1,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2574468085106383,
+      "uas_mean": 0.3446808510638298,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 42,
+      "fold": 2,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2591687041564792,
+      "uas_mean": 0.36674816625916873,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 42,
+      "fold": 3,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.12423625254582485,
+      "uas_mean": 0.20977596741344195,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 42,
+      "fold": 4,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.23809523809523808,
+      "uas_mean": 0.3581780538302277,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 43,
+      "fold": 0,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2786885245901639,
+      "uas_mean": 0.3981264637002342,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 43,
+      "fold": 1,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2574468085106383,
+      "uas_mean": 0.32553191489361705,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 43,
+      "fold": 2,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.25183374083129584,
+      "uas_mean": 0.36185819070904646,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 43,
+      "fold": 3,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.15071283095723015,
+      "uas_mean": 0.23625254582484725,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 43,
+      "fold": 4,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.13664596273291926,
+      "uas_mean": 0.2401656314699793,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 44,
+      "fold": 0,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2716627634660422,
+      "uas_mean": 0.36768149882903983,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 44,
+      "fold": 1,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2680851063829787,
+      "uas_mean": 0.3659574468085106,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 44,
+      "fold": 2,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.29095354523227385,
+      "uas_mean": 0.4034229828850856,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 44,
+      "fold": 3,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.23421588594704684,
+      "uas_mean": 0.329938900203666,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 44,
+      "fold": 4,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2443064182194617,
+      "uas_mean": 0.34782608695652173,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 45,
+      "fold": 0,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2716627634660422,
+      "uas_mean": 0.38875878220140514,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 45,
+      "fold": 1,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.274468085106383,
+      "uas_mean": 0.37659574468085105,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 45,
+      "fold": 2,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2616136919315403,
+      "uas_mean": 0.3471882640586797,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 45,
+      "fold": 3,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.23625254582484725,
+      "uas_mean": 0.31160896130346233,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 45,
+      "fold": 4,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2546583850931677,
+      "uas_mean": 0.3747412008281574,
+      "n_test_tokens": 483
+    },
+    {
+      "init_seed": 46,
+      "fold": 0,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.24824355971896955,
+      "uas_mean": 0.34660421545667447,
+      "n_test_tokens": 427
+    },
+    {
+      "init_seed": 46,
+      "fold": 1,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.22340425531914893,
+      "uas_mean": 0.3553191489361702,
+      "n_test_tokens": 470
+    },
+    {
+      "init_seed": 46,
+      "fold": 2,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.28361858190709044,
+      "uas_mean": 0.36674816625916873,
+      "n_test_tokens": 409
+    },
+    {
+      "init_seed": 46,
+      "fold": 3,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.22810590631364563,
+      "uas_mean": 0.3034623217922607,
+      "n_test_tokens": 491
+    },
+    {
+      "init_seed": 46,
+      "fold": 4,
+      "condition": "byte_fallback_bpe",
+      "train_script": "normalized",
+      "vocab_size": 16000,
+      "las_mean": 0.2670807453416149,
+      "uas_mean": 0.3747412008281574,
+      "n_test_tokens": 483
+    }
+  ],
+  "summary_by_condition": {
+    "tt_only": {
+      "las_mean": 0.22388425680753454,
+      "las_std": 0.05444486066699028,
+      "uas_mean": 0.32608207546498086,
+      "uas_std": 0.052097734063863754,
+      "k_folds": 5.0,
+      "n_init_seeds": 5.0,
+      "n_runs": 25.0
+    },
+    "transfer_tr": {
+      "las_mean": 0.25066899384298275,
+      "las_std": 0.044318459928035736,
+      "uas_mean": 0.34672189563390565,
+      "uas_std": 0.04250895604491234,
+      "k_folds": 5.0,
+      "n_init_seeds": 5.0,
+      "n_runs": 25.0
+    },
+    "transfer_tr_kk": {
+      "las_mean": 0.2333786425115683,
+      "las_std": 0.051546551287174225,
+      "uas_mean": 0.3288409793153118,
+      "uas_std": 0.048711273819208145,
+      "k_folds": 5.0,
+      "n_init_seeds": 5.0,
+      "n_runs": 25.0
+    },
+    "transfer_tr_kk_tt": {
+      "las_mean": 0.21996661328453432,
+      "las_std": 0.05152489244937897,
+      "uas_mean": 0.3237821934354577,
+      "uas_std": 0.0520920567214489,
+      "k_folds": 5.0,
+      "n_init_seeds": 5.0,
+      "n_runs": 25.0
+    },
+    "byte_fallback_bpe": {
+      "las_mean": 0.24412020946657523,
+      "las_std": 0.043467119336128235,
+      "uas_mean": 0.3431584755008029,
+      "uas_std": 0.048533547669649124,
+      "k_folds": 5.0,
+      "n_init_seeds": 5.0,
+      "n_runs": 25.0
+    }
+  }
+}

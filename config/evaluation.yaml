@@ -1,0 +1,56 @@
+# NLP evaluation settings. Path anchors mirror `project_paths.yaml` under `paths`;
+# keep string values aligned with that file.
+
+project_root: .
+
+paths:
+  ud_eval:
+    tr: &path_ud_eval_tr data/ud/eval/tr
+    kk: &path_ud_eval_kk data/ud/eval/kk
+    tt: &path_ud_eval_tt data/ud/eval/tt
+
+  intrinsic_test:
+    native:
+      tr: &path_intrinsic_test_native_tr data/processed/native/tr/sp_test.txt
+      kk: &path_intrinsic_test_native_kk data/processed/native/kk/sp_test.txt
+      tt: &path_intrinsic_test_native_tt data/processed/native/tt/sp_test.txt
+    normalized:
+      tr: &path_intrinsic_test_normalized_tr data/processed/normalized/tr/sp_test.txt
+      kk: &path_intrinsic_test_normalized_kk data/processed/normalized/kk/sp_test.txt
+      tt: &path_intrinsic_test_normalized_tt data/processed/normalized/tt/sp_test.txt
+
+evaluation:
+  intrinsic:
+    metrics:
+      - fertility
+      - fragmentation
+      - coverage
+    test_files:
+      native:
+        tr:
+          - *path_intrinsic_test_native_tr
+        kk:
+          - *path_intrinsic_test_native_kk
+        tt:
+          - *path_intrinsic_test_native_tt
+      normalized:
+        tr:
+          - *path_intrinsic_test_normalized_tr
+        kk:
+          - *path_intrinsic_test_normalized_kk
+        tt:
+          - *path_intrinsic_test_normalized_tt
+
+  downstream:
+    tasks:
+      - pos_tagging
+      - dep_parsing
+    treebanks:
+      tr: *path_ud_eval_tr
+      kk: *path_ud_eval_kk
+      tt: *path_ud_eval_tt
+    model:
+      name: bilstm_tagger
+      description: simple BiLSTM tagger
+    epochs: 20
+    batch_size: 32

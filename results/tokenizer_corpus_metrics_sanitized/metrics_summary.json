@@ -1,0 +1,233 @@
+{
+  "splits_root": "data/processed/normalized_script/splits_sanitized",
+  "per_file": [
+    {
+      "lang": "tr",
+      "split": "train",
+      "path": "data/processed/normalized_script/splits_sanitized/tr/train.txt",
+      "lines": 2719014,
+      "chars": 753997326,
+      "words": 98246513,
+      "chars_per_line_mean": 277.31,
+      "words_per_line_mean": 36.13,
+      "total_chars": 753997326,
+      "unique_chars": 8666,
+      "min_rank_for_0_9990": 119,
+      "min_rank_for_0_9995": 188,
+      "min_rank_for_0_9999": 644,
+      "cat_fractions": {
+        "letter": 0.820651,
+        "space": 0.126695,
+        "punct_symbol": 0.033353,
+        "number": 0.01928,
+        "other": 2e-05
+      }
+    },
+    {
+      "lang": "tr",
+      "split": "dev",
+      "path": "data/processed/normalized_script/splits_sanitized/tr/dev.txt",
+      "lines": 151032,
+      "chars": 41791413,
+      "words": 5443693,
+      "chars_per_line_mean": 276.71,
+      "words_per_line_mean": 36.04,
+      "total_chars": 41791413,
+      "unique_chars": 2910,
+      "min_rank_for_0_9990": 119,
+      "min_rank_for_0_9995": 188,
+      "min_rank_for_0_9999": 663,
+      "cat_fractions": {
+        "letter": 0.820582,
+        "space": 0.126645,
+        "punct_symbol": 0.033438,
+        "number": 0.019314,
+        "other": 2.1e-05
+      }
+    },
+    {
+      "lang": "tr",
+      "split": "test",
+      "path": "data/processed/normalized_script/splits_sanitized/tr/test.txt",
+      "lines": 150909,
+      "chars": 41890959,
+      "words": 5458921,
+      "chars_per_line_mean": 277.59,
+      "words_per_line_mean": 36.17,
+      "total_chars": 41890959,
+      "unique_chars": 2626,
+      "min_rank_for_0_9990": 119,
+      "min_rank_for_0_9995": 187,
+      "min_rank_for_0_9999": 590,
+      "cat_fractions": {
+        "number": 0.019334,
+        "space": 0.12671,
+        "letter": 0.820546,
+        "punct_symbol": 0.033386,
+        "other": 2.4e-05
+      }
+    },
+    {
+      "lang": "kk",
+      "split": "train",
+      "path": "data/processed/normalized_script/splits_sanitized/kk/train.txt",
+      "lines": 808913,
+      "chars": 190083119,
+      "words": 24296207,
+      "chars_per_line_mean": 234.99,
+      "words_per_line_mean": 30.04,
+      "total_chars": 190083119,
+      "unique_chars": 3241,
+      "min_rank_for_0_9990": 90,
+      "min_rank_for_0_9995": 101,
+      "min_rank_for_0_9999": 201,
+      "cat_fractions": {
+        "letter": 0.813285,
+        "space": 0.123563,
+        "punct_symbol": 0.038398,
+        "number": 0.024708,
+        "other": 4.6e-05
+      }
+    },
+    {
+      "lang": "kk",
+      "split": "dev",
+      "path": "data/processed/normalized_script/splits_sanitized/kk/dev.txt",
+      "lines": 44758,
+      "chars": 10571767,
+      "words": 1352052,
+      "chars_per_line_mean": 236.2,
+      "words_per_line_mean": 30.21,
+      "total_chars": 10571767,
+      "unique_chars": 759,
+      "min_rank_for_0_9990": 90,
+      "min_rank_for_0_9995": 102,
+      "min_rank_for_0_9999": 191,
+      "cat_fractions": {
+        "number": 0.024496,
+        "space": 0.123659,
+        "letter": 0.813644,
+        "punct_symbol": 0.038148,
+        "other": 5.3e-05
+      }
+    },
+    {
+      "lang": "kk",
+      "split": "test",
+      "path": "data/processed/normalized_script/splits_sanitized/kk/test.txt",
+      "lines": 44820,
+      "chars": 10370399,
+      "words": 1326126,
+      "chars_per_line_mean": 231.38,
+      "words_per_line_mean": 29.59,
+      "total_chars": 10370399,
+      "unique_chars": 712,
+      "min_rank_for_0_9990": 90,
+      "min_rank_for_0_9995": 99,
+      "min_rank_for_0_9999": 186,
+      "cat_fractions": {
+        "letter": 0.813357,
+        "space": 0.123554,
+        "punct_symbol": 0.038377,
+        "number": 0.024687,
+        "other": 2.4e-05
+      }
+    },
+    {
+      "lang": "tt",
+      "split": "train",
+      "path": "data/processed/normalized_script/splits_sanitized/tt/train.txt",
+      "lines": 1784281,
+      "chars": 261469356,
+      "words": 35321816,
+      "chars_per_line_mean": 146.54,
+      "words_per_line_mean": 19.8,
+      "total_chars": 261469356,
+      "unique_chars": 2973,
+      "min_rank_for_0_9990": 86,
+      "min_rank_for_0_9995": 94,
+      "min_rank_for_0_9999": 178,
+      "cat_fractions": {
+        "letter": 0.806904,
+        "space": 0.128266,
+        "punct_symbol": 0.039224,
+        "number": 0.025582,
+        "other": 2.4e-05
+      }
+    },
+    {
+      "lang": "tt",
+      "split": "dev",
+      "path": "data/processed/normalized_script/splits_sanitized/tt/dev.txt",
+      "lines": 98860,
+      "chars": 14543801,
+      "words": 1966130,
+      "chars_per_line_mean": 147.12,
+      "words_per_line_mean": 19.89,
+      "total_chars": 14543801,
+      "unique_chars": 825,
+      "min_rank_for_0_9990": 87,
+      "min_rank_for_0_9995": 96,
+      "min_rank_for_0_9999": 215,
+      "cat_fractions": {
+        "letter": 0.806753,
+        "space": 0.128389,
+        "number": 0.025566,
+        "punct_symbol": 0.039233,
+        "other": 5.9e-05
+      }
+    },
+    {
+      "lang": "tt",
+      "split": "test",
+      "path": "data/processed/normalized_script/splits_sanitized/tt/test.txt",
+      "lines": 98913,
+      "chars": 14523305,
+      "words": 1962331,
+      "chars_per_line_mean": 146.83,
+      "words_per_line_mean": 19.84,
+      "total_chars": 14523305,
+      "unique_chars": 775,
+      "min_rank_for_0_9990": 86,
+      "min_rank_for_0_9995": 94,
+      "min_rank_for_0_9999": 184,
+      "cat_fractions": {
+        "letter": 0.807027,
+        "space": 0.128305,
+        "punct_symbol": 0.039213,
+        "number": 0.025435,
+        "other": 2e-05
+      }
+    }
+  ],
+  "train_character_coverage": {
+    "tr": {
+      "total_chars": 753997326,
+      "unique_chars": 8666,
+      "min_rank_for_0_9990": 119,
+      "min_rank_for_0_9995": 188,
+      "min_rank_for_0_9999": 644
+    },
+    "kk": {
+      "total_chars": 190083119,
+      "unique_chars": 3241,
+      "min_rank_for_0_9990": 90,
+      "min_rank_for_0_9995": 101,
+      "min_rank_for_0_9999": 201
+    },
+    "tt": {
+      "total_chars": 261469356,
+      "unique_chars": 2973,
+      "min_rank_for_0_9990": 86,
+      "min_rank_for_0_9995": 94,
+      "min_rank_for_0_9999": 178
+    }
+  },
+  "combined_train": {
+    "total_chars": 1205549801,
+    "unique_chars": 9284,
+    "min_rank_for_0_9990": 111,
+    "min_rank_for_0_9995": 158,
+    "min_rank_for_0_9999": 516
+  }
+}

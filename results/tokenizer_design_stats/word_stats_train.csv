@@ -1,0 +1,4 @@
+lang,lines,chars,bytes_per_char,bytes_per_line_mean,char_set_size,n_word_tokens_all_lines,n_word_tokens_in_word_counter,unique_word_types_in_counter,ttr_in_counter,hapax_frac_of_types,mean_word_len_chars,min_type_rank_for_50pct_token_mass,min_type_rank_for_80pct_token_mass,min_type_rank_for_90pct_token_mass,min_type_rank_for_95pct_token_mass,token_mass_top_8000_types,token_mass_top_16000_types,token_mass_top_32000_types
+tr,2719014,754017115,1.088127,301.75,8777,98245270,98245270,4860949,0.049478,0.632823,6.7025,3289,59854,273944,970116,0.59839,0.673841,0.743908
+kk,808913,190092237,1.109189,260.66,3344,24296407,24296407,1832248,0.075412,0.662479,6.8572,1875,40576,198669,617926,0.651774,0.719391,0.780928
+tt,1784281,261480404,1.150051,168.54,2983,35321840,35321840,1134029,0.032106,0.621813,6.4533,312,1954,12133,84489,0.885375,0.908766,0.928166

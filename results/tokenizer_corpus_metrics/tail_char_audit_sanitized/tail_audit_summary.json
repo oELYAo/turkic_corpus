@@ -1,0 +1,16 @@
+{
+  "splits_root": "data/processed/normalized_script/splits_sanitized",
+  "split": "train",
+  "coverage": 0.9999,
+  "per_lang": {
+    "tr": {
+      "path": "data/processed/normalized_script/splits_sanitized/tr/train.txt",
+      "total_chars": 753997326,
+      "unique_chars": 8666,
+      "cutoff_rank_at_threshold": 644,
+      "tail_unique_chars": 8022,
+      "tail_char_mass": 75393,
+      "tail_mass_fraction": 9.999e-05
+    }
+  }
+}
